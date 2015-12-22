@@ -1,0 +1,32 @@
+{
+  "name": "@aweary/close-enough",
+  "version": "0.0.1",
+  "description": "Normalized equality comparisons",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel --presets es2015 index.js -d dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aweary/close-enough.git"
+  },
+  "keywords": [
+    "equality",
+    "comparison",
+    "string"
+  ],
+  "author": "Brandon Dail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aweary/close-enough/issues"
+  },
+  "homepage": "https://github.com/Aweary/close-enough#readme",
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "expect": "^1.13.4"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
